@@ -326,6 +326,9 @@ p {
     display: block;
     margin-top: 5px;
   }
+  .time{
+    align-self: flex-end;
+  }
   .main-wrapper .upper-row {
     margin-bottom: 0;
   }
