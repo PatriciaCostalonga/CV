@@ -242,6 +242,11 @@ p {
   margin-bottom: 0;
   font-weight: 500;
 }
+/* 
+.upper-row.past .job-title{
+    color: #828c99;
+    font-size: 0.6rem;
+} */
 
 .main-wrapper .time {
   position: absolute;
@@ -267,7 +272,7 @@ p {
 }
 
 .main-wrapper .projects-section .item {
-  margin-bottom: 15px;
+  margin-bottom: 20px;
 }
 
 .skillset .item {
@@ -330,7 +335,7 @@ p {
     align-self: flex-end;
   }
   .main-wrapper .upper-row {
-    margin-bottom: 0;
+    margin-bottom: 8px;
   }
 }
 
