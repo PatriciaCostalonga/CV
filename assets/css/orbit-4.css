@@ -275,15 +275,27 @@ p {
   margin-bottom: 20px;
 }
 
+.skillset{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
 .skillset .item {
   margin-bottom: 15px;
-  overflow: hidden;
+  /* overflow: hidden; */
+  margin: 2px 5px;
 }
 
 .skillset .level-title {
   font-size: 14px;
   margin-top: 0;
   margin-bottom: 12px;
+  background-color: #A15277;
+  color: #fff;
+  padding: 5px 10px;
+  border-radius: 25px;
+  width: 100%;
 }
 
 .skillset .level-bar {
@@ -341,9 +353,8 @@ p {
 
 @media (min-width: 992px) {
   .skillset .level-title {
-    display: inline-block;
-    float: left;
-    width: 30%;
-    margin-bottom: 0;
+    /* display: inline-block; */
+    width: 100%;
+
   }
 }
