@@ -275,6 +275,29 @@ p {
   margin-bottom: 20px;
 }
 
+.meta.long{
+  border-left: 2px solid #bbb;
+  padding-left: 15px;
+  position: relative;
+  height: 100%;
+}
+
+.meta.long::after{
+  height: 20%;
+}
+
+.meta.long .dot{
+  height: 8px;
+  width: 8px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  position: absolute;
+  margin-left: -20px;
+  margin-top: 5px;
+}
+
+
 .skillset{
   display: flex;
   flex-wrap: wrap;
