@@ -276,14 +276,18 @@ p {
 }
 
 .meta.long{
-  border-left: 2px solid #bbb;
+  /* border-left: 2px solid #bbb; */
   padding-left: 15px;
   position: relative;
-  height: 100%;
 }
 
 .meta.long::after{
-  height: 20%;
+  content: "";
+  border-left: 2px solid #bbb;
+  margin-left: -17px;
+  position: absolute;
+  top: 10px;
+  bottom: 10px;
 }
 
 .meta.long .dot{
