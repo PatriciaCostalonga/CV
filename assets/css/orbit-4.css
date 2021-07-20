@@ -152,6 +152,10 @@ p {
   margin-bottom: 12px;
 }
 
+.education-container.container-block{
+  display: none;
+}
+
 .sidebar-wrapper .languages-container .lang-desc {
   color: rgba(255, 255, 255, 0.6);
 }
@@ -394,6 +398,10 @@ p {
 
   .languages-container.container-block{
     padding-top: 40px;
+  }
+
+  .education-container.container-block{
+    display: block;
   }
 }
 
