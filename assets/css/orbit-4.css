@@ -42,7 +42,7 @@ p {
 }
 
 .wrapper {
-  background: #A15277;
+  background: #2B189C;
   max-width: 960px;
   margin: 0 auto;
   margin-top: 30px;
@@ -53,7 +53,7 @@ p {
 }
 
 .sidebar-wrapper {
-  background: #A15277;
+  background: #2B189C;
   position: absolute;
   right: 0;
   width: 240px;
@@ -199,11 +199,15 @@ p {
   padding-right: 300px;
 }
 
+.profile-title{
+  display: none;
+}
+
 .main-wrapper .section-title {
   text-transform: uppercase;
   font-size: 20px;
   font-weight: 500;
-  color: #6e3852;
+  color: #2B189C;
   position: relative;
   margin-top: 0;
   margin-bottom: 20px;
@@ -223,7 +227,7 @@ p {
   -moz-background-clip: padding;
   -webkit-background-clip: padding-box;
   background-clip: padding-box;
-  background: #6e3852;
+  background: #2B189C;
   text-align: center;
   font-size: 16px;
   position: relative;
@@ -298,17 +302,6 @@ p {
   bottom: 10px;
 }
 
-.meta.long .dot{
-  height: 8px;
-  width: 8px;
-  background-color: #d8d8d8;
-  border-radius: 50%;
-  display: inline-block;
-  position: absolute;
-  margin-left: -20px;
-  margin-top: 5px;
-}
-
 .skillset{
   display: flex;
   flex-wrap: wrap;
@@ -347,6 +340,15 @@ p {
 /* ------------------- MOBILE ------------------- */
 
 @media (max-width: 766px) {
+  .wrapper{
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .sidebar-wrapper .profile-container{
+      display: none;
+  }
+
   .sidebar-wrapper {
     position: static;
     width: inherit;
@@ -366,6 +368,12 @@ p {
     margin-bottom: 8px;
   }
 
+  .profile-title{
+    display: block;
+    color: #2B189C;
+    margin-bottom: 4rem;
+  }
+
   .sidebar-wrapper{
     min-height: 600px;
   }
@@ -377,10 +385,6 @@ p {
 
   .sidebar-wrapper .container-block:last-of-type{
     padding-bottom: 40px;
-  }
-
-  .meta.long::after{
-    bottom: 38px;
   }
 
   .item{
