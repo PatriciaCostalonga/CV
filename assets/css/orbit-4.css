@@ -190,7 +190,7 @@ p {
 }
 
 .section.educational-section .item{
-  margin-top: 20px;
+  margin-bottom: 40px;
 }
 
 .main-wrapper {
@@ -244,7 +244,7 @@ p {
 }
 
 .main-wrapper .experiences-section .item {
-  margin-bottom: 30px;
+  margin-bottom: 40px;
 }
 
 .main-wrapper .upper-row {
@@ -257,7 +257,7 @@ p {
   color: #3F4650;
   font-size: 16px;
   margin-top: 0;
-  margin-bottom: 0;
+  margin-bottom: 8px;
   font-weight: 500;
 }
 
@@ -269,8 +269,13 @@ p {
 }
 
 .main-wrapper .company {
-  margin-bottom: 10px;
-  color: #545E6C;
+  margin-bottom: 16px;
+  color: #8492a5;
+}
+
+.main-wrapper .company a{
+  color: #2B189C;
+  text-decoration: underline;
 }
 
 .main-wrapper .project-title {
@@ -281,11 +286,11 @@ p {
 }
 
 .main-wrapper .projects-section .intro {
-  margin-bottom: 30px;
+  margin-bottom: 40px;
 }
 
 .main-wrapper .projects-section .item {
-  margin-bottom: 20px;
+  margin-bottom: 40px;
 }
 
 .meta.long{
